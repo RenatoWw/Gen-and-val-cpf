@@ -10,14 +10,13 @@
 <body>
     <center>
         <h1>Validar CPF</h1>
-        <form>
+        <form onsubmit="alert(val())">
             <input id="validar" type="text" name="cpf-validar" />
             <input type="submit" name="enviar" />
         </form>
         <h1>Gerar CPF</h1>
         <form>
-            <input id="gerar" type="text" name="cpf-gerar" />
-            <input type="submit" name="enviar" />
+            <input type="submit" value="Gerar" onclick="alert(gen())" />
         </form>
     </center>
     <script src="js/main.js"></script>
